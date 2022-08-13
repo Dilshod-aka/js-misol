@@ -1,171 +1,233 @@
-"use strict"
+
+// "use strict"
 
 
 
-
-// var a=15;
+// let a=15;
 // let b=10;
-// a++
 
-// // console.log(a++);  // increment
-// console.log(a);
+// console.log(++a); increment
+// console.log(--a);
 
-// console.log(b--); 
-// b++
-// b++
-// console.log(--b);    // decrement
+// console.log(b++);
+// console.log(b--);  decrement
 
 
 
 
+// let a=10;
+// let b=14;
 
-
-// let sum = "10";
-
-// sum += "10"
-
-// // sum=sum+50;
-// // sum+=50;
-
-// // sum**=40;
-// // console.log("10" + "7");
-
-
-// // let data = "1241232";
-// // let num = Number(data);
-// // let txt = 3333;
-// // let str = String(txt);
+// console.log(a+b)
 
 
 
 
-// // console.log(typeof (str));
-// // console.log((str));
-
-// // > , < , >= , <= , == , === , !
+// let a=1000;
+// let b=100;
 
 
-// // console.log(10 !== "10");
+// console.log(a/b || a%b);
 
 
 
+// var sek=60;
 
-// let sam = 625;
-
-// // console.log(Math.ceil(sam)); // katta tomonga
-
-// // console.log(Math.floor(sam)); // kichik tarafga
-
-// // console.log(Math.round(sam)); // haqiqiy tarafga
-
-// // console.log(Math.pow(sam, 1 / 4)); // darajaga ochiradi
-
-// // console.log(Math.sqrt(sam)); //kv ildiz
-
-// // let namber = Math.random() * 100;
-
-// // console.log(typeof (namber.toFixed(n))*1); // honagacha yahlitlaydi.
-
-// // console.log(Math.round(namber));
-
-// // console.log(Math.max(12, 23, 0.001, 122));
+// console.log(sek*sek +"min");
+// console.log(3600*sek +"soat");
 
 
 
-// let year = 2022;
 
-// let month = 8;
+// let a=20;
+// let b=10;
 
-// let day = 12;
-
-// // logical and && ,
-
-// //logical or // mashi tizuvni tekisi ushanda ishlidi
-
-// // if (((year === 2021) || (month === 81) || (day === 12))) {
-
-// //     console.log("2022.08.12");
-// // } else {
-// //     console.log("yil xato");
-// // }
-
-// // Avazbek universitetga o'qishga kirmoqchi. O'qishga kirish uchun IELTS-5.5, math - 40 yoki "25000$" bo'lishi kerak). Agar shartlar bajarilgan bo'lsa o'qishga kirdingiz, bo'lmasa kirolmadingiz deb consoleda ko'rsatsin
-
-// let IELTS = +prompt("Enter your IELTS level");
-
-// let math = +prompt("Enter your Math level");
-
-// let money = +prompt(' Contract =');
-
-// if ((IELTS >= 5.5 && math >= 40) || money >= 25000) {
-//     console.log("Tabriklaymis");
-// } else {
-//     console.log("Yeqildingiz");
+// if (a<b) {
+//     console.log(true)
+// } else{
+//     console.log(false)
 // }
 
 
+// let a=17;
+// let b=7;
 
-// console.log(IELTS + math);
-
-
-// let sum1 = prompt("sms");
-
-// let sum2 = 300;
-
-// document.getElementById('text').textContent = sum1 + sum2 + "777777";
-// document.querySelector('.data').innerHTML = `<h1 class="ok">${sum1}</h1>`;
+// if (a>b) {
+//     console.log(true);
+// } else{
+//     console.log(false)
+// }
 
 
-// console.log(document.getElementById('text'));
+// let a=12;
+// let b=6;
+
+// if (a>b) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
 
 
+// let a=16;
+// let b=10;
+
+// if (a > 0 && b > 0) {
+    
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
 
 
-// 1 test
-// let a = 25;
+// let a=12;
+// let b=20;
+// let c=16;
 
-// let b = 15;
-// console.log(b)
-// console.log(a - b);
+// if (a>b) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
 
-// test 2
-// let a = 10;
-
-// let b = 5;
-
-// console.log(b);
-// console.log(a);
-
-
-// test 3
-// let a = 10;
-
-// let b = 5;
-
-// let c = (a - b)
-
-// let d = (7 && c || d)
+// if (b>c) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
 
 
-// console.log(d);
+// let a=6;
+// let b=10;
+// let c=12;
 
 
-// test 4
-
-// let a = 10;
-
-// let b = 3;
-
-// console.log(a % b);
+// if (a<b<c) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
 
 
-// test 5
+// let a=14;
+// let b=10;
 
-// let a = 2;
+// if (a<17) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
 
-// let b = 10;
+// if (b>3) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
 
-// console.log(a ** b);
 
+// let a=10;
+// let b=12;
+// let c=14;
+// let d=16;
+
+// let a=13;
+// let b=10;
+// let c=6;
+
+// const du="Dushanba";
+// const se="Seshanba";
+// const chor="Chorshanba";
+// const pay="Payshanba";
+// const jum="Juma";
+// const shan="Shanba";
+// const yak="Yakshanba";
+
+// console.log(du);
+// console.log(se);
+// console.log(chor);
+// console.log(pay);
+// console.log(jum);
+// console.log(shan);
+// console.log(yak);
+
+
+// let ucel=99;
+// let bilane=98;
+// let mtc=97;
+
+// if (ucel) {
+//     console.log(ucel);
+// }
+
+// if (bilane) {
+//     console.log(bilane);
+// }
+
+// if (mtc) {
+//     console.log(mtc);
+// }
+
+
+// let a=10;
+// let b=7;
+
+// if (a++) {
+//     console.log(a);
+// } else {
+//     b--;
+//     console.log(b);
+// }
+
+// if (b--) {
+//     console.log(b);
+// } else {
+//     console.log(a);
+// }
+
+
+// let a=10;
+// let b=7;
+
+// if (a*b) {
+//     console.log(a*b)
+// } else {
+//     console.log(b)
+// }
+
+// if (b/2) {
+//     console.log(b/2)
+// }
+
+
+// let a=14;
+// let b=16;
+
+// if (a<b) {
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
+
+
+// let a=10;
+// let b=20;
+// let c=16;
+
+// if (a<b>c) {
+//     console.log(true)
+// } else
+// {
+//     console.log(false)
+// }
+
+// let a=26;
+// let b=20;
+// let c=15;
+
+// if (a>c<b) {
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
 
 
